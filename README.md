@@ -1,5 +1,7 @@
 # Node Email Microservice
-Reusable email sender service built with node.js.
+A reusable email sender service built with node.js inspired by DKWON of <a href="velocity360.io">velocity360.io</a>. The idea is to use this backend api service on any project. <br/>
+
+A simple UI is added to this project for testing.
 
 # Features
 1. Can send emails (obviously) from a configured FROM_EMAIL_ADDRESS
