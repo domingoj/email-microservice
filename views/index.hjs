@@ -12,7 +12,10 @@
         <h1>Send Email</h1>
         <hr/>
         <form action="/api/send" method="post">
-          <input type="text" class="form-control" name="recipients" placeholder="Recipients"/><br/>
+          <input type="text" class="form-control" name="recipients" placeholder="Recipients"/>
+          <p id="recipientsHelpBlock" class="form-text text-muted">
+            You can put multiple comma separated emails here.
+          </p><br/>
           <input type="text" class="form-control" name="subject" placeholder="Subject"/><br/>
           <textarea name="content" class="form-control" placeholder="Content"></textarea><br/>
           <button class="btn btn-info" type="submit">Submit</button>
